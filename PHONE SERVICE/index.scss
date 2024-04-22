@@ -1,0 +1,469 @@
+#body {
+    // width: 18em;
+    width: fit-content;
+    height: 400px;
+    border: 2px solid brown;
+    position: relative;
+    border-radius: 15px;
+    margin: 2em 0px 0px 3em;
+    background-image: url(./picz/iphonewall.jpg);
+
+    #inputfinger {
+        top: 2em;
+        margin: 9em 0px 0px 4em;
+        position: absolute;
+
+        span {
+            color: #ffff;
+            margin: 1em 0px 0px 2em;
+        }
+    }
+
+    #div1 {
+        margin: 3em 0px 0px 5em;
+        position: absolute;
+
+        marquee {
+            z-index: 2;
+            color: #ffff;
+            position: absolute;
+        }
+
+        div {
+
+            span {
+                font-size: 4em;
+                color: #ffff;
+            }
+
+            p {
+                color: #ffff;
+            }
+        }
+
+        #fingerprint {
+            margin: 10em 0px 0px 1em;
+            cursor: pointer;
+        }
+    }
+}
+
+main {
+    text-align: center;
+    margin: auto;
+
+    #phone {
+        background-image: url(./picz/mmt.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 2em;
+        text-align: center;
+        width: 18em;
+        height: 400px;
+        border: 2px solid brown;
+        border-radius: 15px;
+        position: relative;
+
+        #powerhold {
+            width: 14em;
+            height: 19em;
+            background-color: lightslategray;
+            padding: 1em;
+            position: absolute;
+            top: 6em;
+            margin-left: 2em;
+            border-radius: 15px;
+
+            #iop {
+                margin-top: 2em;
+            }
+
+            div {
+                width: 3em;
+                height: 4em;
+                background-color: black;
+                margin: auto;
+                cursor: pointer;
+                border-radius: 20px;
+
+                span {
+                    color: #ffff;
+                    margin-top: 15px;
+                }
+            }
+
+            div:hover {
+                background-color: crimson;
+                transition: all 0.5s ease-in-out;
+            }
+        }
+
+        #gens {
+            position: absolute;
+            // display: flex;
+            top: 0px;
+            padding: 3em;
+            margin: 2em;
+            background-image: url(./picz/download.jpg);
+            background-repeat: inherit;
+            background-size: cover;
+            height: 350px;
+            width: 16.9em;
+            border-radius: 4px;
+            left: -24px;
+
+            #homec {
+                margin: -50px 0px 0px 12em;
+                position: absolute;
+                cursor: pointer;
+
+                i {
+                    color: #ffff;
+                }
+            }
+        }
+
+        #topall {
+            position: absolute;
+            display: flex;
+
+            div {
+                padding: 2px;
+            }
+
+            .clocks {
+                color: #ffff;
+                font-size: 12px;
+            }
+
+            .status {
+                width: 6.1em;
+                height: 1.4em;
+                background-color: #ffff;
+                margin: 1px 0px 0px 2.7em;
+                border-radius: 0px 0px 10px 10px;
+                display: flex;
+                justify-content: space-around;
+
+                div {
+                    margin: 4px 0px 0px 0px;
+                    width: 1.7em;
+                    border-radius: 50%;
+                    height: 15px;
+                    background-color: black;
+                }
+            }
+
+            h6 {
+                color: #ffff;
+            }
+
+            #datahold {
+
+                #data {
+                    color: #ffff;
+                    font-size: 17px;
+                }
+            }
+
+            #wifi {
+                margin: -4px 0px 0px 14px;
+
+                i {
+                    color: #ffff;
+                    font-size: 15px;
+                }
+            }
+
+            #battery {
+                color: #ffff;
+                font-size: 15px;
+            }
+        }
+
+        #holdhome {
+            margin-top: 2em;
+
+            #touchbtn {
+                position: absolute;
+                top: 13.7em;
+                margin: 0px 0px 0px 15em;
+                cursor: pointer;
+
+                img {
+                    width: 3em;
+                    height: 2.5em;
+                    border-radius: 20px;
+                }
+            }
+
+            #divsearch {
+                margin-top: 6em;
+            }
+
+            #search {
+                background-color: #ffff;
+                margin: auto;
+                display: flex;
+                width: 15em;
+                height: 30px;
+                border-radius: 15px;
+                padding: 3px;
+                justify-self: center;
+                top: 4em;
+
+                input {
+                    border: none;
+                }
+
+                i {
+                    cursor: pointer;
+                    color: cadetblue;
+                    font-size: 20px;
+                    margin-top: 2px;
+                }
+
+                img {
+                    cursor: pointer;
+                    font-size: 20px;
+                    margin-top: 2px;
+                }
+            }
+
+            #homeicon {
+                display: flex;
+                max-width: 15em;
+                flex-wrap: wrap;
+                margin-left: 1em;
+
+                div {
+                    margin: 10px;
+                    width: 3.5em;
+                    height: 3em;
+                    background-color: darkcyan;
+                    border-radius: 10px;
+                    text-align: center;
+                    // display: flex;
+                    cursor: pointer;
+
+                    span {
+                        color: #ffff;
+                        font-size: 1.5em;
+                    }
+
+                    p {
+                        font-size: 9px;
+                        color: #ffff;
+                    }
+
+                    img {
+                        width: 2.6em;
+                        height: 2.7em;
+                        border-radius: 20px;
+                    }
+                }
+
+                div:hover {
+                    background-color: rgb(0 0 0.4);
+                    color: #ffff;
+                    transition: all 0.6s ease-in-out;
+                }
+            }
+        }
+
+        #landingdiv {
+            position: absolute;
+
+
+            button {
+
+                border: none;
+                border-radius: 3px;
+                margin: 8px;
+
+                i {
+                    font-size: 1.5em;
+                    color: crimson;
+                }
+                // img{
+                //     position: absolute;
+                //     width: 2em;
+                //     height: 2em;
+                // }
+            }
+        }
+
+        button:hover {
+            background-color: cadetblue;
+            transition: all 0.6s ease-in-out;
+        }
+
+        #callarea {
+            margin-top: 1.4em;
+            background-color: cornsilk;
+
+            h1 {
+                background-color: transparent;
+                margin: 12px 0px 1em 0px;
+                color: cornflowerblue;
+                max-width: 15em;
+                flex-wrap: wrap;
+                height: 2em;
+            }
+
+            button {
+                //  font-size: 2em;
+                margin: 1em;
+            }
+        }
+
+        #select_provider {
+            position: absolute;
+            background-color: greenyellow;
+            height: 14em;
+            width: 12em;
+            border-radius: 9px;
+            margin: auto;
+
+            div {
+                margin: 9px 0px;
+            }
+        }
+    }
+
+    #mm {
+        background-color: indianred;
+        width: 17.7em;
+        height: 23em;
+        margin: auto;
+        padding: 1em 2em;
+        top: 27px;
+        position: absolute;
+        border-radius: 10px;
+    }
+
+    #mm:hover {
+        background-color: gray;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #io {
+        margin: 2em 0px 0px 0em;
+    }
+
+    #io:hover {
+        background-color: gold;
+        color: black;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #homec {
+        margin: 2em 0em;
+        cursor: pointer;
+
+        i {
+            color: #ffff;
+        }
+    }
+
+    #allapp {
+        color: #ffff;
+        font-size: 21px;
+        cursor: pointer;
+        width: 2em;
+        margin-left: 5.4em;
+    }
+
+    #ff {
+        height: 7em;
+        width: 7em;
+        background-color: aqua;
+        margin: auto;
+        padding: 17px;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+
+    #ff:hover {
+        background-color: gold;
+        transition: all 0.5s ease-in-out;
+    }
+}
+
+#offpower {
+    width: 18em;
+    height: 400px;
+    border: 2px solid brown;
+    position: relative;
+    border-radius: 15px;
+    margin: 2em 0px 0px 3em;
+    background-color: darkcyan;
+    //  background-image: url(./picz/iphonewall.jpg);
+
+    span {
+        color: black;
+        font-size: 2em;
+        cursor: pointer;
+        margin: 4em;
+        top: 6em;
+    }
+}
+
+#file {
+    position: absolute;
+}
+
+#files {
+    color: #ffff;
+}
+
+#mart {
+    position: absolute;
+}
+
+
+#todo {
+    border-radius: 12px;
+    border-color: 2px solid burlywood;
+    top: 2em;
+    position: absolute;
+    padding: 1em;
+   margin: 0px 0px 0px 5px;
+    width: 17.2em;
+    flex-wrap: wrap;
+//    max-height:  19em;
+    background-color: darkcyan;
+    overflow-y: auto;
+    height: fit-content;
+   
+}
+
+#llo {
+    background-color: crimson;
+    width: fit-content;
+    height: fit-content;
+  //  margin: auto;
+}
+
+#rt {
+    margin: 1em 0px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+#ppo {
+    margin: 1em 0px;
+    color: black;
+}
+
+#show{
+    position: absolute;
+    top: 3em;
+}
+
+#vvoo{
+    position: absolute;
+    top: 5em;
+}

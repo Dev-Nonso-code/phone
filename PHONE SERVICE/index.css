@@ -1,0 +1,388 @@
+#body {
+  width: fit-content;
+  height: 400px;
+  border: 2px solid brown;
+  position: relative;
+  border-radius: 15px;
+  margin: 2em 0px 0px 3em;
+  background-image: url(./picz/iphonewall.jpg);
+}
+#body #inputfinger {
+  top: 2em;
+  margin: 9em 0px 0px 4em;
+  position: absolute;
+}
+#body #inputfinger span {
+  color: white;
+  margin: 1em 0px 0px 2em;
+}
+#body #div1 {
+  margin: 3em 0px 0px 5em;
+  position: absolute;
+}
+#body #div1 marquee {
+  z-index: 2;
+  color: white;
+  position: absolute;
+}
+#body #div1 div span {
+  font-size: 4em;
+  color: white;
+}
+#body #div1 div p {
+  color: white;
+}
+#body #div1 #fingerprint {
+  margin: 10em 0px 0px 1em;
+  cursor: pointer;
+}
+
+main {
+  text-align: center;
+  margin: auto;
+}
+main #phone {
+  background-image: url(./picz/mmt.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2em;
+  text-align: center;
+  width: 18em;
+  height: 400px;
+  border: 2px solid brown;
+  border-radius: 15px;
+  position: relative;
+}
+main #phone #powerhold {
+  width: 14em;
+  height: 19em;
+  background-color: lightslategray;
+  padding: 1em;
+  position: absolute;
+  top: 6em;
+  margin-left: 2em;
+  border-radius: 15px;
+}
+main #phone #powerhold #iop {
+  margin-top: 2em;
+}
+main #phone #powerhold div {
+  width: 3em;
+  height: 4em;
+  background-color: black;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 20px;
+}
+main #phone #powerhold div span {
+  color: white;
+  margin-top: 15px;
+}
+main #phone #powerhold div:hover {
+  background-color: crimson;
+  transition: all 0.5s ease-in-out;
+}
+main #phone #gens {
+  position: absolute;
+  top: 0px;
+  padding: 3em;
+  margin: 2em;
+  background-image: url(./picz/download.jpg);
+  background-repeat: inherit;
+  background-size: cover;
+  height: 350px;
+  width: 16.9em;
+  border-radius: 4px;
+  left: -24px;
+}
+main #phone #gens #homec {
+  margin: -50px 0px 0px 12em;
+  position: absolute;
+  cursor: pointer;
+}
+main #phone #gens #homec i {
+  color: white;
+}
+main #phone #topall {
+  position: absolute;
+  display: flex;
+}
+main #phone #topall div {
+  padding: 2px;
+}
+main #phone #topall .clocks {
+  color: white;
+  font-size: 12px;
+}
+main #phone #topall .status {
+  width: 6.1em;
+  height: 1.4em;
+  background-color: white;
+  margin: 1px 0px 0px 2.7em;
+  border-radius: 0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-around;
+}
+main #phone #topall .status div {
+  margin: 4px 0px 0px 0px;
+  width: 1.7em;
+  border-radius: 50%;
+  height: 15px;
+  background-color: black;
+}
+main #phone #topall h6 {
+  color: white;
+}
+main #phone #topall #datahold #data {
+  color: white;
+  font-size: 17px;
+}
+main #phone #topall #wifi {
+  margin: -4px 0px 0px 14px;
+}
+main #phone #topall #wifi i {
+  color: white;
+  font-size: 15px;
+}
+main #phone #topall #battery {
+  color: white;
+  font-size: 15px;
+}
+main #phone #holdhome {
+  margin-top: 2em;
+}
+main #phone #holdhome #touchbtn {
+  position: absolute;
+  top: 13.7em;
+  margin: 0px 0px 0px 15em;
+  cursor: pointer;
+}
+main #phone #holdhome #touchbtn img {
+  width: 3em;
+  height: 2.5em;
+  border-radius: 20px;
+}
+main #phone #holdhome #divsearch {
+  margin-top: 6em;
+}
+main #phone #holdhome #search {
+  background-color: white;
+  margin: auto;
+  display: flex;
+  width: 15em;
+  height: 30px;
+  border-radius: 15px;
+  padding: 3px;
+  justify-self: center;
+  top: 4em;
+}
+main #phone #holdhome #search input {
+  border: none;
+}
+main #phone #holdhome #search i {
+  cursor: pointer;
+  color: cadetblue;
+  font-size: 20px;
+  margin-top: 2px;
+}
+main #phone #holdhome #search img {
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 2px;
+}
+main #phone #holdhome #homeicon {
+  display: flex;
+  max-width: 15em;
+  flex-wrap: wrap;
+  margin-left: 1em;
+}
+main #phone #holdhome #homeicon div {
+  margin: 10px;
+  width: 3.5em;
+  height: 3em;
+  background-color: darkcyan;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+main #phone #holdhome #homeicon div span {
+  color: white;
+  font-size: 1.5em;
+}
+main #phone #holdhome #homeicon div p {
+  font-size: 9px;
+  color: white;
+}
+main #phone #holdhome #homeicon div img {
+  width: 2.6em;
+  height: 2.7em;
+  border-radius: 20px;
+}
+main #phone #holdhome #homeicon div:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  transition: all 0.6s ease-in-out;
+}
+main #phone #landingdiv {
+  position: absolute;
+}
+main #phone #landingdiv button {
+  border: none;
+  border-radius: 3px;
+  margin: 8px;
+}
+main #phone #landingdiv button i {
+  font-size: 1.5em;
+  color: crimson;
+}
+main #phone button:hover {
+  background-color: cadetblue;
+  transition: all 0.6s ease-in-out;
+}
+main #phone #callarea {
+  margin-top: 1.4em;
+  background-color: cornsilk;
+}
+main #phone #callarea h1 {
+  background-color: transparent;
+  margin: 12px 0px 1em 0px;
+  color: cornflowerblue;
+  max-width: 15em;
+  flex-wrap: wrap;
+  height: 2em;
+}
+main #phone #callarea button {
+  margin: 1em;
+}
+main #phone #select_provider {
+  position: absolute;
+  background-color: greenyellow;
+  height: 14em;
+  width: 12em;
+  border-radius: 9px;
+  margin: auto;
+}
+main #phone #select_provider div {
+  margin: 9px 0px;
+}
+main #mm {
+  background-color: indianred;
+  width: 17.7em;
+  height: 23em;
+  margin: auto;
+  padding: 1em 2em;
+  top: 27px;
+  position: absolute;
+  border-radius: 10px;
+}
+main #mm:hover {
+  background-color: gray;
+  transition: all 0.5s ease-in-out;
+}
+main #io {
+  margin: 2em 0px 0px 0em;
+}
+main #io:hover {
+  background-color: gold;
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+main #homec {
+  margin: 2em 0em;
+  cursor: pointer;
+}
+main #homec i {
+  color: white;
+}
+main #allapp {
+  color: white;
+  font-size: 21px;
+  cursor: pointer;
+  width: 2em;
+  margin-left: 5.4em;
+}
+main #ff {
+  height: 7em;
+  width: 7em;
+  background-color: aqua;
+  margin: auto;
+  padding: 17px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+main #ff:hover {
+  background-color: gold;
+  transition: all 0.5s ease-in-out;
+}
+
+#offpower {
+  width: 18em;
+  height: 400px;
+  border: 2px solid brown;
+  position: relative;
+  border-radius: 15px;
+  margin: 2em 0px 0px 3em;
+  background-color: darkcyan;
+}
+#offpower span {
+  color: black;
+  font-size: 2em;
+  cursor: pointer;
+  margin: 4em;
+  top: 6em;
+}
+
+#file {
+  position: absolute;
+}
+
+#files {
+  color: white;
+}
+
+#mart {
+  position: absolute;
+}
+
+#todo {
+  border-radius: 12px;
+  border-color: 2px solid burlywood;
+  top: 2em;
+  position: absolute;
+  padding: 1em;
+  margin: 0px 0px 0px 5px;
+  width: 17.2em;
+  flex-wrap: wrap;
+  background-color: darkcyan;
+  overflow-y: auto;
+  height: fit-content;
+}
+
+#llo {
+  background-color: crimson;
+  width: fit-content;
+  height: fit-content;
+}
+
+#rt {
+  margin: 1em 0px;
+  text-align: center;
+  justify-content: center;
+}
+
+#ppo {
+  margin: 1em 0px;
+  color: black;
+}
+
+#show {
+  position: absolute;
+  top: 3em;
+}
+
+#vvoo {
+  position: absolute;
+  top: 5em;
+}
+
+/*# sourceMappingURL=index.css.map */
