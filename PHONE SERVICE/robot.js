@@ -12,7 +12,9 @@ let robot = [
     vovo = {
         name: "what did you eat today",
         age: "have you eaten today",
+        life: "how is life",
     }, robots = {
+        life: "how is life",
         name: "what is your name",
         age: "how old are you",
         city: "where are you from",
@@ -62,6 +64,10 @@ function fingerun() {
     }
 }
 function robotf() {
+    if (inputs.value === vovo.life) {
+        alert("Life is Hard $ Soft")
+        return;
+    }
     if (inputs.value == vovo.age) {
         alert("YEAH")
         return;

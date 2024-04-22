@@ -137,7 +137,7 @@ function homec() {
 function cancel() {
     select_provider.style.display = "none"
 }
-function dialmtn() {
+function dialmtn () {
     //  var findcard = MTN.find((f) => f.mtn_pin)
     let findcard = MTN.find((f) => f.used == false)
     console.log(findcard);
